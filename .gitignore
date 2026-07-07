@@ -1,0 +1,77 @@
+# IDE related
+.idea/
+.trae/
+*.iml
+*.ipr
+*.iws
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build outputs
+target/
+build/
+dist/
+*.class
+*.jar
+*.war
+*.ear
+
+# Node.js
+node_modules/
+/package-lock.json
+/test-ai-backend/package-lock.json
+yarn.lock
+pnpm-lock.yaml
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.eslintcache
+.stylelintcache
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Logs
+logs/
+*.log
+
+# Maven
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ
+out/
+
+# Local environment files (secrets)
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Local history
+.history/
+
+# Custom exclusions
+/data/
+test-ai-backend/mydocs/
+test-ai-backend/data/
+backend-framework-structure.md
+frontend-framework-structure.md
+
+# Spring Boot
+spring-shell.log

@@ -1,0 +1,12 @@
+package com.testai.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.testai.entity.Template;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * 模板数据访问层
+ */
+@Mapper
+public interface TemplateMapper extends BaseMapper<Template> {
+}
